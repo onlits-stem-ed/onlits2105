@@ -1,0 +1,21 @@
+
+	HTML	-	Marks ups
+	CSS		-	Frameworks
+	JS
+	PHP
+	
+	Don't follow a paradigm
+		POP or OOP
+		
+	Deemed-fit
+	
+	Separation of concerns
+		M	-	Table
+		V	-	Markups (HTML + Bootstrap + JS)
+		C	-	Business logic
+		
+	Dependency Injection
+	
+	JSON:	JavaScript Object Notion
+	
+	REST API

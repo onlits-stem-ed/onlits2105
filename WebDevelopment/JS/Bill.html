@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table width="100%" id="bill_table">
+        <tr>
+            <td colspan="5" align="center">TAX INVOICE</td>
+        </tr>
+        <tr>
+            <td>Sl#</td>
+            <td>Particulars</td>
+            <td>Quantity</td>
+            <td>Rate</td>
+            <td>Amount</td>
+        </tr>
+        <tr>
+            <td><input type="text" name="" id=""></td>
+            <td><input type="text" name="" id=""></td>
+            <td><input type="text" name="" id=""></td>
+            <td><input type="text" name="" id=""></td>
+            <td><input type="text" name="" id="" onblur="newRow()"></td>
+        </tr>
+    </table>
+    <button type="button" onclick="newRow()">New Row</button>
+
+    <script>
+        function newRow() {
+           const row = document.createElement("tr");
+           const sl_td = document.createElement("td");
+           const sl = document.createElement("input");
+           sl_td.appendChild(sl);
+           const particulars_td = document.createElement("td");
+           const particulars = document.createElement("input");
+           particulars_td.appendChild(particulars);
+           const quantity_td = document.createElement("td");
+           const quantity = document.createElement("input");
+           quantity_td.appendChild(quantity);
+           const rate_td = document.createElement("td");
+           const rate = document.createElement("input");
+           rate_td.appendChild(rate);
+           const amount_td = document.createElement("td");
+           const amount = document.createElement("input");
+           amount_td.appendChild(amount);
+           row.appendChild(sl_td);
+           row.appendChild(particulars_td);
+           row.appendChild(quantity_td);
+           row.appendChild(rate_td);
+           row.appendChild(amount_td);
+           document.getElementById("bill_table").appendChild(row);
+           console.log(0);
+        }
+    </script>
+</body>
+</html>

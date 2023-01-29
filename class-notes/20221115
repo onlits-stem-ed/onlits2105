@@ -1,0 +1,48 @@
+
+	Framework	-	Laravel
+	
+	Networking
+	
+	5 projects
+	
+	Core OOP: Java, C++, Python, C#, PHP
+	Modern OOP
+		Design Principles	-	SOLID
+		Design Patterns	-	23 GOF
+		Architecture Pattern - MVC
+		Architecture Styles - Microservices
+	
+	contract	-	agreement
+	
+	Java Library - 1st
+	Client Code	- 2nd
+	DBMS - 3rd (jar)
+	
+	
+	Connection con = DriverManager.getConnection(url);
+	
+	public class MariaDbConnection implements Connection {
+	
+	
+	}
+	
+	Scanner scanner = new Scanner(System.in);
+	
+	
+	gcc
+	./a.out
+	
+	gcc
+	a.exe
+	
+	javac Sum.java
+	Sum.class
+	java Sum
+	
+	JDK	-	Java Development Kit
+	JVM -	Java Virtual Machine
+	
+	JDK	-	Java Development Kit
+	JRE -	Java Runtime Environment (JVM + Class Library)
+	
+	

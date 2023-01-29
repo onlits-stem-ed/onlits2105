@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Capabilities</title>
+</head>
+<body id="body">
+    <h1 id="statich">Static Text</h1>
+    <p name="" id="staticp">This is a static content.</p>
+    <button type="button" onclick="changeText()">Click to change text</button>
+    <button type="button" onclick="redBackground()">Red Background</button>
+    <button type="button" onclick="greenBackground()">Green Background</button>
+    <button type="button" onclick="greenBackground()">Green Background</button>
+    <button type="button" onclick="greenBackground()">Green Background</button>
+    <button type="button" onclick="greenBackground()">Green Background</button>
+    <button type="button" onclick="greenBackground()">Green Background</button>
+    <script>
+        function changeText() {
+            document.getElementById("statich").innerHTML = "Dynamic Text"
+            document.getElementById("staticp").innerHTML = "This is a dynamic content."
+        }
+
+        function redBackground() {
+            document.getElementById("body").style.backgroundColor = "red";
+        }
+
+        function greenBackground() {
+            document.getElementById("body").style.backgroundColor = "green";
+        }
+    </script>
+</body>
+</html>

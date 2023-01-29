@@ -1,0 +1,72 @@
+
+	Compiler
+	
+	Interpreter	-	Cross Platform
+	
+	gcc hello-world.c		-	Compiler
+	.\a.out					-	OS
+	
+	java HelloWorld.java	-	Compiler
+	java HelloWorld			-	Interpreter (JVM/JRE)
+	
+	
+	python hello-world.py	-	Interpreter
+	
+	
+	2 + 2 = 4
+	
+	569 + 223 = ?
+	
+	
+		Indentation
+		
+		
+	#include <stdio.h>
+	int main(void)
+	{
+		printf("Hello World!");
+	}
+	
+	int main(int *argc, char *argv[])
+	{
+	
+	}
+	
+	
+	void fun(void)
+	{
+	
+	}
+	
+	
+	main()
+	{
+	
+	}
+	
+	python 2 and python 3
+	
+	#include <stdio.h>
+	int main(void)
+	{
+		int a, b, c;
+		printf("Enter a number: ");
+		scanf("%d", &a);
+	
+	}
+	
+	
+	a = scanner.nextInt();
+	
+	a = Integer.parseInt(buffer.readLine());
+	
+	
+	
+	The input received from terminal is in 'String format'.
+	
+	Python is a dynamically-typed language.
+	
+	Python is multi-paradigm (OOP + POP)
+	
+	For loop in python is designed to be used with sequences
+	

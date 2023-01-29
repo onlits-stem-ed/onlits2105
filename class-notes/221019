@@ -1,0 +1,55 @@
+
+	Statically Typed		-	Data type decided by the programmer
+	Dynamically Typed		-	Data type decided by the context
+	
+	coupling	-	Inter-module binding	(loose)
+	cohesion	-	Intra-module binding	(tight)
+	
+	
+	System.out.println("Hello");
+	
+	
+	Four ways to take input in java:
+		1. DataInputStream	1.0
+		2. BufferedReader	1.1
+		3. Scanner			1.5		(P)
+		4. Console			1.6
+		
+		
+		
+		1. int a = Integer.parseInt(in.readLine());	//error (explicit type conversion)
+		2. int a = buffer.readLine();	//error
+		3. int a = scanner.nextInt();
+		4. int a = console.readLine();	//error
+		
+		
+		1, 2, 4	=	java.io;
+		3		=	java.util;
+		
+		
+		
+		1. Primitive/Fundamental/Primary/Built-in
+			int, char, short, float, double, void
+		2. Derived X
+			array, function, pointer
+		3. User-defined
+			struct, union, enum
+			
+		byte	-128 to 127
+		short	-32768 to 32767
+		int		+- 2 billion
+		long	?
+		
+		WAP to display a string in Hindi language.
+		
+		
+		public static void main(String[] args) {
+			final float PI = 3.14;
+			final int b = 20000;
+			String name = "Prince Kumar";
+		
+		}
+		
+		
+			
+		

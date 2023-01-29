@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output in JavaScript</title>
+
+</head>
+
+<body>
+    <header>
+        <p id="head-para"></p>
+    </header>
+    <script>document.write("This line is also printed using document.write method.")</script>
+    <h1>Experimenting with modes of output in JavaScript</h1>
+    <p id="para"></p>
+    <button onclick="window.print()">Print this page</button>
+    <script>
+        document.getElementById("para").innerHTML = "This line is printed using innerHTML."
+        document.write("This line is printed using document.write method.")
+        document.getElementById("head-para").innerHTML = "This is header paragraph."
+        window.alert("This is a message box.")
+        console.log("This message will be displayed on JS console on the browser")
+
+        function printA(x) {
+            if (true) {
+                let a = 10
+                console.log(a)
+            }
+            console.log(a)
+        }
+
+        printA();
+    </script>
+</body>
+
+</html>
