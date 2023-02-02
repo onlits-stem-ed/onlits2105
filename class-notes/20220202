@@ -1,0 +1,26 @@
+
+	int factorial(int n)
+	{
+		int i, fact=1;
+		for(i=n; i>=1; i++)
+		{
+			fact *= i;
+		}
+		return(fact);
+	}
+	
+	function factorial(int $n) : int
+	{
+	
+	}
+	
+	def factorial(n):
+		i = n
+		fact = 1
+		while(i>=1):
+			fact *= i
+		return(fact)
+		
+		
+		53	=	1, 53	(51)
+		52	=	1, 2, 4, 13, 26, 52 (46)
