@@ -1,0 +1,59 @@
+
+	Object vs Instance
+	
+	Object is a variable of class type.
+	Instance is a more broader term used for variable of a class type
+	or array type or interface type.
+	
+	Instance variable
+	Class variable
+	
+	Full Stack Development
+		Front-End (HTML, CSS, JS)
+		Back-End
+		
+		
+	Applet	-	Front-End
+	Servlet -	Back-End
+	
+	parasite
+	virus
+	
+	Adwares
+	Spywares
+	
+	Threat	-	risk
+	Thread	-	A light weight process.
+	
+	Java features/buzzwords
+	
+	Android	-	Mobile phone, TV, Car, Laptop
+	
+	Java programs are compiled into Bytecode which inturn is executed by
+	JVM.
+	
+	Write once run anywhere
+	
+	Encapsulation
+		Hide data inside class and access it via methods.
+	Abstraction
+		
+	Inheritance
+		Code resuability
+	Polymorphism
+	
+	Earning	=	?
+	
+	
+	Abstract Class	-	Guidelines
+	Interface
+	Concrete Class
+	
+	Problem Statement
+	SRS
+	
+	
+	SOLID
+	O	-	Open/Close principle
+		A class should be open for extension but should be closed for
+		modification.

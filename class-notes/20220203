@@ -1,0 +1,46 @@
+
+	map	=	key:value pair
+	
+	unit testing
+	
+	this	-	pointer to the current object
+	self is like this
+	
+	1. Encapsulation
+	2. Abstraction
+	3. Inheritance
+	4. Polymorphism
+	
+	
+	Java:
+	class Person {
+	
+	
+	}
+	
+	class Student extends Person {
+	
+	}
+	
+	C++/C#
+	class Person
+	{
+	
+	
+	}
+	
+	class Student : Person 
+	{
+	
+	}
+	
+	Python
+	
+	class Person:
+	
+	
+	
+	class Student(Person):
+	
+	
+	

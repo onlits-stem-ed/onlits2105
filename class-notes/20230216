@@ -1,0 +1,25 @@
+
+	Java Convention
+		Class/Interface	-	PascalCase
+		Method/Field	-	camelCase eg. nextInt()
+		local/argument	-	lowercase
+		constant		-	UPPERCASE
+		package			-	lowercase
+		keywords		-	lowercase
+		
+	Stream	-	Flow of data
+		1. DataInputStream						java.io
+		2. BufferedReader + InputStreamReader	java.io
+		3. Scanner								java.util
+		4. Console								java.io
+		
+	Deprecated	-	Outdated
+	
+	gets()	-	is dangerous and should not used.
+	
+	System is a class.
+	out is field of System Class that is reference to an instance
+	of PrintStream Class
+	println/printf/print is a method defined in PrintStream class
+	
+	

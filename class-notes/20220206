@@ -1,0 +1,32 @@
+
+	char name[50];
+	scanf("%s", name);		//1
+	fgets(name, 50, stdin);	//2
+	
+	if(strcmp(name, "Prince")==0)
+	{
+		printf("Both are same");	//1
+	}
+	else
+	{
+		printf("String are not same");	//2
+	}
+	
+	Web Development (PBL)
+	
+	Templates	-	STL
+	Generic Classes	-	Collections Framework
+	
+	Data structure is an logical arrangement of data.
+	
+	
+	Linear Data Structure
+	Sometime data is arranged in list (array, linked list, stack, queue).
+	Sometime data is arranged in stack (LIFO).	-	containers
+	Sometime data is arranged in queue (FIFO).	-	sequence
+	
+	Non-Linear Data Structure
+	tree
+	graph
+	
+	
