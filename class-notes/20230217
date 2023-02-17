@@ -1,0 +1,71 @@
+
+	int, float, char, double	-	inbuilt support
+	
+	When do we have to create a class?
+		Event Management Software
+		
+		
+	loop vs recursion
+	
+	ChatGPT
+	
+	
+	Object Oriented Programming
+		School
+			- student
+			- staff
+				- teaching
+				- non-teaching
+			- class
+			- class attendance
+			- fees
+			- exams
+			
+		Address
+			- street: String
+			- city: String
+			- state: String
+			- pin: String
+		
+		Student
+			- adm_no: int
+			- name: String
+			- gender: char
+			- dob: Date
+			- father name: String
+			- mother name: String
+			- address: Address			//Composition
+			
+			
+			
+			
+
+		Encapsulation	-	Data should be private to class
+		
+		Class	-	Class is a specification of object.
+		
+		Recipe (class) and Dish (Object)
+		
+		Data Structure
+		
+		UML : Unified Modelling Language
+		
+		
+		onlits.com	-->		com.onlits.something
+		onlits.local --> local.onlits.onlits2105.classobject.student
+		
+		
+		class C - 192.168.
+		
+		
+		C++ had 3 access specifier/modifier:
+			1. public
+			2. private
+			3. protected
+			
+		But java has an additional one:
+			4. default access
+				For default access we do not have a keyword.
+			
+			
+		
