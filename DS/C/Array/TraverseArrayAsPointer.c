@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main()
 {
-    int arr[] = {12, 56, 96, 3, 45};
+    int array[] = {12, 56, 96, 3, 45};
+    int *arr = array;
     printf("The elements of array are:\n");
     for(int i=0; i<5; i++)
     {

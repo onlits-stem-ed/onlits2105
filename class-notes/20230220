@@ -1,0 +1,55 @@
+
+	
+	Data Structure:
+		- An organisation of data.
+		- So that data may be processed efficiently
+		
+	
+	Primitive:
+		int, float, char
+	
+	Non-Primitive
+		Array, Linked List, Stack, Queue, Tree, Graph
+		
+	Linear
+		Array, Linked List, Stack, Queue
+	Non-Linear
+		Tree, Graph
+		
+	Operation on DS:
+		1. Traversal (Visiting)
+		2. Insert
+		3. Delete
+		4. Sort
+		5. Search
+		6. Merge
+		
+	
+	Representation of stack using:
+		a. array
+		b. linked list
+		
+		
+	Limitation of array: Finite
+		- Cannot be resized during runtime
+		
+	This limition was conquered by use of linked list.
+	
+	Stack and Queue are list with limited operations:
+	
+		In Stack insertion as well as deletion takes place at top.
+		LIFO: Last In First Out
+			Insert operation here is called PUSH.
+			Deletion operation here is called POP.
+			
+		In Queue insertion takes place at rear and deletion at front
+		FIFO: First In First Out
+			Insertion operation here is called EnQueue
+			Deletion operation here is called DeQueue
+	
+		Double Ended Queue
+		
+		
+		Maintenance
+		
+	
